@@ -7,7 +7,10 @@
 }
 body{
     font-family: "Inter", sans-serif;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180.00deg, rgb(6, 6, 6),rgba(119, 119, 119, 0) 100%);
+    
+    border-radius: 2px;
 
 
 }
@@ -17,7 +20,8 @@ body{
 
 .container{
     width: 1440px;
-    height: 715px;   
+    height: 715px; 
+    margin: 0 auto;  
     /* background: linear-gradient(180.00deg, rgb(9, 9, 9),rgba(12, 12, 12, 0) 100%); */
 }
 
@@ -59,6 +63,7 @@ body{
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 6px 20px 6px 20px;
+    border: none;
 }
 
 .nav-content p{
@@ -80,6 +85,7 @@ body{
     margin-bottom: 75px;
     width: 1044px;
     height: 452px;
+    margin-bottom: 90px;
 }
 
 
@@ -121,4 +127,63 @@ body{
     margin-left: 70px;
     margin-top: 20px;
 }
-  
+
+
+/* habit section */
+.habits-container{
+    width: 1044px;
+    height: 452px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.habits-content h6{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 14px;
+
+
+}
+
+.habits-content p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 55px;
+}
+
+.habit-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+}
+
+.habit-img img{
+    border-radius: 50%;
+    /* margin-left: 25px; */
+}
+
+.habit-img h6{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+margin-top: 1rem;
+}
+
+.habit-img p{
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(16, 13, 13, 0.5);
+    
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin-top: 12px;
+}
