@@ -31,6 +31,11 @@ body{
     margin-top: 3.5rem;
     
 }
+.ham-burger{
+    color: white;
+    display: none;
+}
+          
 
 .shape{
     color: rgb(255, 255, 255);
@@ -630,4 +635,362 @@ hr{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
+}
+
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    /* nav */
+    
+   
+    .container {  
+        width: 100%;
+        height: auto; 
+        margin: 0;
+    }  
+
+    .nav-container {  
+        display: flex; 
+        flex-direction: column; 
+        margin: 1rem;  
+    }  
+
+    .ham-burger {  
+        display: block; 
+        margin-left: auto; 
+    }  
+
+    .title {  
+        margin: 0; 
+        text-align: center;  
+        font-size: 24px;
+       
+    }  
+
+    .nav-content { 
+        display: none; 
+        
+    }  
+
+    /* .btn-primary {  
+        width: 50%; 
+        margin-bottom: 0.5rem;  
+    }   */
+
+    .nav-content p {  
+        margin: 0.5rem 0; 
+        font-size: 14px; 
+    }  
+
+    /* Banner*/  
+    .banner-container {  
+        display: flex;
+        flex-direction: column;   
+        align-items: center; 
+        width: 100%; 
+        margin-left: 0;
+        height: auto; 
+    }  
+
+    .banner-content {  
+        text-align: center;  
+        padding: 1rem; 
+    }  
+    .shape{
+        font-size: 24px;
+        font-weight: 100;
+    
+    }
+
+    .banner-content h6 {  
+        font-size: 20px; 
+        margin-top: 20px; 
+        margin-bottom: 10px; 
+    }  
+
+    .banner-content p {  
+        margin-bottom: 10px; 
+        font-size: 14px; 
+    }  
+    .btn-primary{
+        width: 50%;
+    }
+
+    .btn-secondary {  
+        width: 50%; 
+        margin-top: 0.5rem; 
+    }  
+
+    .img img {  
+        width: 100%; 
+        height: auto; 
+        margin-left: 0; 
+        margin-top: 20px;  
+    }  
+   
+    /* habit */
+    
+    
+
+    .habits-container {  
+        width: 100%; 
+        height: auto; 
+        padding: 0 20px;
+        margin-top: 100px;  
+        /* margin-left: 20px; */
+    }  
+
+    .habits-content h6 {  
+        font-size: 24px; 
+        margin-bottom: 10px;
+    }  
+
+    .habits-content p {  
+        font-size: 12px; 
+        margin-bottom: 30px; 
+    }  
+
+    .habit-img {  
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }  
+
+    .habit-img div {  
+        flex: 1 1 45%; 
+        margin: 10px;
+        text-align: center;
+    }  
+
+    .habit-img img {  
+        width: 100px; 
+        height: 100px;
+    }  
+
+    .habit-img h6 {  
+        font-size: 16px; 
+        margin-top: 8px; 
+    }  
+
+    .habit-img p {  
+        font-size: 12px;
+        margin-top: 8px;  
+    }  
+
+    /* Run an Extra Mile Easily */
+
+    .extra-container {  
+        width: 100%; 
+        height: auto; 
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px;
+        margin-bottom: 50px; 
+    }  
+
+    .extra-content {  
+        margin-left: 0;
+        text-align: center; 
+        padding: 0 15px;
+    }  
+
+    .extra-content h6 {  
+        font-size: 24px; 
+        margin-top: 20px; 
+    }  
+
+    .extra-content p {  
+        font-size: 12px; 
+        margin-top: 10px; 
+        margin-bottom: 1rem;  
+        line-height: 20px; 
+    }  
+
+    .extra-img img {  
+        width: 100%; 
+        max-width: 300px;
+        border-radius: 8px;
+        margin: 20px 0;  
+    }  
+
+    .btn-primary {  
+        width: 50%;
+        padding: 10px 0;
+    }  
+
+    /* bmi */
+
+    .calculator-content {  
+        margin: 0 20px;
+        text-align: center; 
+    }  
+
+    .calculator {  
+        grid-template-columns: 1fr; 
+        height: auto; 
+    }  
+
+    .calculator-chart, .calculate-bmi {  
+        margin-left: 0; 
+        width: auto;
+    }  
+
+    .calculator-chart table {  
+        width: 100%; 
+        margin-left: 0; 
+    }  
+
+    .form {  
+        grid-template-columns: 1fr;
+    }  
+
+    .calculate-bmi {  
+        width: 100%; 
+        height: auto; 
+    }  
+
+    h6 {  
+        font-size: 24px; 
+    }  
+
+    p {  
+        font-size: 12px; 
+    }
+
+    /* yoga */
+    .new-container {  
+        width: 100%; 
+        height: auto;
+        padding: 20px;  
+    }  
+
+    .new-container h6 {  
+        font-size: 1.8rem;
+        
+    }  
+
+    .new-container p {  
+        font-size: 12px; 
+        /* line-height: 20px; */
+    }  
+
+    .new-content {  
+        grid-template-columns: 1fr; 
+        margin-left: 20px;
+    }  
+
+    .new-card h6 {  
+        font-size: 1.25rem; 
+    }  
+
+    .new-content img {  
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0; 
+    }  
+
+    /* team */
+
+    .team-container {  
+        width: 100%; 
+        height: auto;
+        padding: 0 10px; 
+        margin: 0;   
+    }  
+
+    .team-container h6 {  
+        font-size: 24px;
+        margin-bottom: 10px;
+    }  
+
+    .team-container p {  
+        font-size: 12px; 
+        margin-bottom: 30px; 
+    }  
+
+
+
+    
+
+    .row-1,  
+    .row-2 {  
+        display: grid;  
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;   
+    }  
+
+    .exercises-card {  
+        text-align: center;
+    }  
+
+    .team-img img {  
+        width: 20%; 
+        height: auto;  
+        border-radius: 12px; 
+    }  
+
+    .exercises-card h6 {  
+        font-size: 12px; 
+    }  
+
+    .exercises-card p {  
+        font-size: 8px;
+    }  
+
+   
+   
+
+    
+
+    /* footer */
+
+    .footer-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {  
+        display: grid;
+        grid-template-columns: 1fr; 
+        margin-left: 0;  
+        margin-top: 30px; 
+    }  
+
+    .first,  
+    .second,  
+    .third {  
+        margin-top: 30px;  
+        margin-left: 20px;
+    }  
+
+    .second h6,  
+    .third h6 {  
+        font-size: 24px; 
+    }  
+
+    .second p,  
+    .third p {  
+        font-size: 16px; 
+        margin-bottom: 10px;  
+    }  
+
+    hr {  
+        width: 90%;  
+    }  
+
+    .end {  
+        font-size: 0.8rem;
+        margin-top: 20px; 
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+       
+    }  
+
+ 
+    
+    
+    
+    
 }
