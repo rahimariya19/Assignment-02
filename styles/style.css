@@ -7,7 +7,6 @@
 }
 body{
     font-family: "Inter", sans-serif;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     background: black;
 
 
@@ -20,7 +19,6 @@ body{
     width: 1440px;
     height: 715px; 
     margin: 0 auto;  
-    /* background: linear-gradient(180.00deg, rgb(9, 9, 9),rgba(12, 12, 12, 0) 100%); */
 }
 
 
@@ -32,6 +30,14 @@ body{
     margin-right: 190px;
     margin-top: 3.5rem;
     
+}
+
+.shape{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 100;
+
 }
 
 .title{
@@ -142,20 +148,20 @@ body{
 
 .habits-content h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 48px;
-font-weight: 800;
-margin-bottom: 14px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 14px;
 
 
 }
 
 .habits-content p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-margin-bottom: 55px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 55px;
 }
 
 .habit-img{
@@ -171,21 +177,18 @@ margin-bottom: 55px;
 
 .habit-img h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 18px;
-font-weight: 600;
-margin-top: 1rem;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
 }
 
 .habit-img p{
-    /* color: rgba(16, 13, 13, 0.5); */
     color: rgba(255, 255, 255, 0.5);
-
-    
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-margin-top: 12px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
 }
 
 
@@ -193,14 +196,13 @@ margin-top: 12px;
 
 .extra-container{
     width: 1060px;
-height: 371px;
-margin: 0 auto;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-border-radius: 18px;
-
-background: rgb(34, 34, 34);
-margin-bottom: 100px;
+    height: 371px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 100px;
 
 }
 
@@ -220,13 +222,13 @@ margin-bottom: 100px;
 
 .extra-content p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-margin-top: 15px;
-margin-bottom: 2.5rem;
-line-height: 24px;
-letter-spacing: 0.3px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 2.5rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 
    
 }
@@ -284,41 +286,41 @@ margin-bottom: 58px;
     margin-top: -200px;
 } */
 
-
+/* team */
 .team-container{
     width: 1060px;
-height: 782px;
-margin: 0 auto;
+    height: 782px;
+    margin: 0 auto;
 
 }
 
 .team-container h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 45px;
-font-weight: 900;
-text-align: center;
-margin-bottom: 14px;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
 }
 
 
 .team-container p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-text-align: center;
-letter-spacing: 0.3px;
-margin-bottom: 55px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin-bottom: 55px;
 
 
 }
 
 .exercises-card h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 1rem;
-font-weight: 900;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 .exercises-card p{
@@ -343,13 +345,12 @@ font-weight: 900;
 
 .team-img{
     border-radius: 18px;
-
-background: rgba(255, 255, 255, 0.1);
-gap: 20px;
-padding: 20px;
-width: 1060px;
-height: 604px;
-margin: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    padding: 20px;
+    width: 1060px;
+    height: 604px;
+    margin: 20px;
 }
 
 
@@ -375,86 +376,86 @@ margin: 20px;
 }
 .calculator-content h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 40px;
-font-weight: 800;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
 
 }
 
 .calculator-content p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 0.3px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
 
 }
 
 .calculator{
     width: 100%;
-height: 487px;
-margin: 0 auto;
-margin-bottom: 90px;
-background: rgb(34, 34, 34);
-display: grid;
-grid-template-columns: 1fr 1fr;
+    height: 487px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
 .calculator-chart h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 28px;
-font-weight: 900;
-margin-top: 50px;
-margin-bottom: 53px;
-margin-left: 190px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 53px;
+    margin-left: 190px;
 }
 
 
 .calculator-chart table {
     width: 310px;
-height: 216px;
-margin-left: 190px;
+    height: 216px;
+    margin-left: 190px;
 
 }
 table, th, td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 table, tr, th{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 10px;
-font-weight: 500;
-text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
 }
 
 .calculate-bmi{
     margin-top: 50px;
     width: 577px;
-height: 386px;
+    height: 386px;
 
 }
 .calculate-bmi h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 28px;
-font-weight: 900;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
 }
 .calculate-bmi p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
-margin-top: 12px;
-margin-bottom: 2rem;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 12px;
+    margin-bottom: 2rem;
 
 }
 
@@ -489,50 +490,118 @@ select {
 }  
 
 
+
+/* new-section */
+.new-container{
+    width: 1060px;
+    height: 581px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.new-container h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.new-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+
+
+.new-content img{
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 15px;
+
+
+}
+
+.new-card h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+
+}
+
+.new-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+
+}
+
+
+
+
+
+
+
+
+
 /* footer */
 .footer-container{
     width: 100%;
-height: 489px;
-background: rgba(255, 255, 255, 0.1);
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
 
 }
 
 .footer-content{
     display: grid;
-grid-template-columns: repeat(3, 1fr);
-margin-top: 90px;
-margin-left: 190px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+    margin-left: 190px;
 
 
 }
 
 .first p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .second h6,
 .third h6{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 32px;
-font-weight: 700;
-line-height: 120%;
-margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 20px;
 
 }
 
 .second p,
 .third p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 23px;
-font-weight: 400;
-margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
 
 
 }
@@ -556,9 +625,9 @@ hr{
     text-align: center;
     margin-top: 35px;
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 1rem;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
