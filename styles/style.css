@@ -641,6 +641,8 @@ hr{
 /* responsive */
 @media screen and (max-width: 576px) {
     /* nav */
+
+    
     
    
     .container {  
@@ -892,7 +894,7 @@ hr{
 
     /* team */
 
-    .team-container {  
+    /* .team-container {  
         width: 100%; 
         height: auto;
         padding: 0 10px; 
@@ -936,9 +938,11 @@ hr{
 
     .exercises-card p {  
         font-size: 8px;
-    }  
+    }   */
 
-   
+    .team-container{
+        display: none;
+    }
    
 
     
